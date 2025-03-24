@@ -41,6 +41,7 @@ To ensure secure asset management, we will implement:
 
 - **Token-Gated Features:** Access control mechanisms to validate ownership of in-game assets before allowing interactions. Entry to every new terrain, usage of new props and collectiable will be authenticated with the ownership of the nft. NFT acts as the pass.
 - **Private Key Encryption:** Server-side wallets will be securely encrypted. Users will be encouraged to not use the wallet for personal use apart from the gaming. Users will be made aware that our server storage the private key(to reduce game play friction). Users will be able to export there wallet.
+- **Assets as NFT:** Assets like Rover skins, props, wheels, etc can be tradable as nft.
 
 ### **4. Community Building Strategy**
 
