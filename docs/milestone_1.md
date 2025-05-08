@@ -70,7 +70,7 @@ Game client gets the email of the user after google oAuth authentication. New to
 #### **1. `/api/account/create`**
 
 - **Method:** POST
-- **Description:** Authenticates users and creates a new account if one does not exist. A new diamante account is createad from random key pair if the given email does not exist in the database. The account is funded with 500 testnet diam tokens and 100 `kkToken`. Every new user is rewarded with kkToken as a early bird. Returns the user object from database if the user already exist for the corresponding email. User interacts with the game client. Game client interacts with diamante blockchain server.
+- **Description:** Creates a new account if one does not exist. A new diamante account is createad from random key pair if the given email does not exist in the database. The account is funded with 500 testnet diam tokens and 100 `kkToken`. Every new user is rewarded with kkToken as a early bird. Returns the user object from database if the user already exist for the corresponding email. User interacts with the game client. Game client interacts with diamante blockchain server.
 - **Request Body:** No request body.
 - **Response:**
   ```json
@@ -180,7 +180,7 @@ Game client gets the email of the user after google oAuth authentication. New to
   }
   ```
 
-- **Usage:** To get the list of assets with metadata(nft) while klan selection.
+- **Usage:** To get the list of assets with metadata(nft) while klan selection, buying skins, powerups, etc in garage.
 
 ---
 
@@ -201,3 +201,5 @@ Game client gets the email of the user after google oAuth authentication. New to
 ✅ A functional **terrain exploration and racing game** with blockchain-integrated asset management.  
 ✅ **Secure, abstracted blockchain transactions** ensuring a smooth gaming experience.  
 ✅ **Seamless backend integration** with Diamante SDK for secure transactions.
+
+_*For detailed API documentation [click here](https://documenter.getpostman.com/view/28209780/2sB2j1hCT4)!*_
